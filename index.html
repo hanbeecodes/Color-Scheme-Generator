@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav id="color-picker-nav" aria-label="Color Palette for basis of color scheme">
+            <input type="color" id="color-input">
+            <select id="scheme-type-selector">
+                <option id="monochrome">Monochrome</option>
+                <option id="monochrome-dark">Monochrome-dark</option>
+                <option id="monochrome-light">Monochrome-light</option>
+                <option id="analogic">Analogic</option>
+                <option id="complement">Complement</option>
+                <option id="analogic-complement">Analogic-complement</option>
+                <option id="triad">Triad</option>
+                <option id="quad">Quad</option>
+            </select>
+            <select id="number-of-colors" aria-label="Drop down menu to select number of colors required in color scheme">
+                <option id="1">1</option>
+                <option id="2">2</option>
+                <option id="3">3</option>
+                <option id="4">4</option>
+                <option id="5">5</option>
+                <option id="6">6</option>
+                <option id="7">7</option>
+                <option id="8">8</option>
+                <option id="9">9</option>
+                <option id="10">10</option>
+            </select>
+            <button type="submit" id="get-scheme-btn">Get Color Scheme</button>
+        </nav>
+        <div id="color-palette">
+           
+        </div>
+    </body>
+    <footer id="hex-display" aria-label="Text of Hex values contained within">
+                           
+    </footer>
+    <script src="index.js"></script>
+</html>

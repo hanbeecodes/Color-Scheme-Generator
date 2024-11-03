@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+}
+
+/* Top Nav Area */
+#color-picker-nav {
+    height: 70px;
+    background-color: #1F2937;
+    color: #D5D4D8;
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#color-input {
+    height: 34px;
+    width: 51px;
+}
+
+#scheme-type-selector {
+    height: 42px;
+    width: 150px;
+    background-color: #1F2937;
+    color: #D5D4D8;
+}
+
+#number-of-colors {
+    background-color: #1F2937;
+    color: #D5D4D8;
+    width: 50px;
+    height: 42px;
+}
+
+#get-scheme-btn {
+    height: 42px;
+    width: 123px;
+    background: #3D4B60;
+    color: #D5D4D8;
+    font-size: 12px;
+    margin-right: 2rem;
+}
+
+/* Color scheme display area */
+
+#color-palette {
+    color: white;
+    height: 80vh;
+    width: 100vw;
+    /* position: relative; */
+}
+
+/* layout for color palette and hex numbers beneath it */
+
+#color-palette {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* Hex display area */
+footer {
+    height: 46px;
+    background-color: #1F2937;
+    color: #D5D4D8;
+    text-align: center;
+    align-items: center;
+}
